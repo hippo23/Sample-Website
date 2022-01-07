@@ -1,5 +1,5 @@
 @import "@fontsource/open-sans/400.css";
-@import "@fontsource/raleway/500.css";
+@import "@fontsource/raleway/700.css";
 @import "@fortawesome/fontawesome-free/css/brands.css";
 
 html,
@@ -7,6 +7,7 @@ body {
   font-family: "open sans";
   color: white;
   margin: 0px;
+  min-width: 70vw;
 }
 
 html {
@@ -37,7 +38,8 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 45%;
+  width: 55%;
+  min-width: 50vw;
   height: 5.5%;
   background: rgba(32, 32, 35, 0.5);
   -webkit-backdrop-filter: blur(10px);
@@ -47,11 +49,11 @@ body {
 
 .nav-elements {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-right: auto;
   list-style-type: none;
-  width: 30%;
   padding: 0;
+  width: 30%;
 }
 
 .nav-elements li {
@@ -59,9 +61,18 @@ body {
 }
 
 .logo {
+  display: flex;
+  justify-content: flex-end;
+  font-size: 15px;
   font-family: "open sans";
-  font-weight: 1000;
   color: white;
+  margin-left: auto;
+  width: 50%;
+  padding: 4vw;
+}
+
+.logo p {
+  display: inline;
 }
 
 .info {
@@ -70,7 +81,8 @@ body {
   align-items: center;
   background-color: #202023;
   height: 94.5%;
-  width: 45%;
+  width: 50%;
+  min-width: 70vw;
 }
 
 .greeting {
@@ -124,7 +136,7 @@ body {
 }
 
 .btn {
-  font-family: "Open Sans";
+  font-family: "Raleway";
   font-size: 15px;
   color: black;
   background: #82e5d9;
@@ -136,11 +148,12 @@ body {
 }
 
 .info-hr {
-  width: 10%;
+  width: 100%;
   margin-left: 0;
 }
 
 #work-title {
+  width: fit-content;
   margin-bottom: auto;
 }
 
