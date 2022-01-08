@@ -39,7 +39,7 @@ body {
   align-items: center;
   justify-content: space-around;
   width: 55%;
-  min-width: 50vw;
+  min-width: 500px;
   height: 5.5%;
   background: rgba(32, 32, 35, 0.5);
   -webkit-backdrop-filter: blur(10px);
@@ -54,6 +54,7 @@ body {
   list-style-type: none;
   padding: 0;
   width: 30%;
+  min-width: 200px;
 }
 
 .nav-elements li {
@@ -67,7 +68,6 @@ body {
   font-family: "open sans";
   color: white;
   margin-left: auto;
-  width: 50%;
   padding: 4vw;
 }
 
@@ -82,16 +82,17 @@ body {
   background-color: #202023;
   height: 94.5%;
   width: 50%;
-  min-width: 70vw;
+  min-width: 500px;
 }
 
 .greeting {
   color: white;
   border-radius: 5px;
   background-color: rgba(90, 96, 99, 0.5);
-  padding: 15px;
   text-align: center;
-  width: 70%;
+  width: 50%;
+  padding: 15px;
+  margin: 15px;
 }
 
 #title {
@@ -115,11 +116,7 @@ body {
 }
 
 .icon {
-  background-image: url("icon.png");
-  background-color: red;
-  background-size: cover;
-  height: 100px;
-  width: 100px;
+  height: 20vh;
   margin-left: auto;
   border-radius: 50%;
   border: 2px solid white;
@@ -153,6 +150,7 @@ body {
 }
 
 #work-title {
+  font-size: 22px;
   width: fit-content;
   margin-bottom: auto;
 }
@@ -207,11 +205,11 @@ body {
   padding-top: 30px;
 }
 
-.nav-elements li a {
+.nav-elements li {
   position: relative;
 }
 
-.nav-elements li a::after {
+.nav-elements li::after {
   position: absolute;
   content: "";
   width: 100%;
@@ -222,7 +220,7 @@ body {
   transform: scaleX(0);
 }
 
-.nav-elements li a:hover:after {
+.nav-elements li:hover:after {
   transform: scaleX(1);
 }
 
