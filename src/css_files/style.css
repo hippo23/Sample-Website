@@ -21,10 +21,6 @@ a {
   text-decoration: none;
 }
 
-.hello {
-  color: red;
-}
-
 .container {
   display: flex;
   flex-direction: column;
