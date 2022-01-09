@@ -1,18 +1,6 @@
-import "./style.css";
-import loadHeader from "./navbar.js";
-import { wipeContent } from "./misc.js";
-import loadBio from "./aboutMe.js";
-import icon from "../assets/doge.png";
+import "./css_files/style.css";
+import "./css_files/homepage.css";
+import "./css_files/portfolio.css";
+import { initializeHomepage } from "./js_files/loadPages.js";
 
-wipeContent();
-
-const coverDiv = document.createElement("div");
-coverDiv.classList.add("cover-image");
-const dogeimage = document.createElement("img");
-dogeimage.src = icon;
-dogeimage.setAttribute("id", "doge-image");
-coverDiv.appendChild(dogeimage);
-document.querySelector(".container").appendChild(coverDiv);
-
-loadHeader();
-loadBio();
+initializeHomepage();

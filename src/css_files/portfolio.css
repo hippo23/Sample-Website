@@ -1,0 +1,52 @@
+.gridContainer {
+  height: auto;
+  width: 30%;
+  min-width: 600px;
+}
+
+.grid {
+  display: grid;
+  grid-gap: 2vw;
+  height: 100%;
+  width: 100%;
+  grid-template: 1fr 1fr 1fr / repeat(2, 1fr);
+}
+
+.linkbox {
+  display: flex;
+  flex-direction: column;
+  height: 25vh;
+  max-height: 300px;
+  animation-name: fadeInBottom;
+  animation-duration: 1.5s;
+  animation-fill-mode: both;
+}
+
+.linkbox h3 {
+  text-align: center;
+  flex: 0 0 auto;
+}
+
+.thumbnail {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.image-container {
+  height: 70%;
+  width: 100%;
+  flex: 1 0 auto;
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+    transform: translateY(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

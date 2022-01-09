@@ -1,0 +1,6 @@
+.grid {
+  display: grid;
+  grid-template: 1fr 1fr / repeat(3, 1fr);
+  height: 94.5%;
+  width: 50%;
+}
