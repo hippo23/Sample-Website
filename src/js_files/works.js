@@ -1,7 +1,7 @@
 import thumb50 from "./../../assets/cs50.jpeg";
-import thumbOdin from "./../../assets/theodinproject.jpeg";
+import thumbOdin from "./../../assets/theodinproject.png";
 import thumbPisay from "./../../assets/pisay.jpeg";
-import thumbLinux from "./../../assets/linux.jpeg";
+import thumbLinux from "./../../assets/linux.png";
 import thumbGit from "./../../assets/git.jpeg";
 import thumbML from "./../../assets/ml.jpeg";
 

@@ -19,7 +19,7 @@
   list-style-type: none;
   padding: 0;
   width: 30%;
-  min-width: 200px;
+  min-width: 230px;
 }
 
 .nav-elements li a {
@@ -140,6 +140,10 @@
   list-style-type: none;
   margin-right: auto;
   padding: 0;
+}
+
+#social li a {
+  color: #82e5d9;
 }
 
 #timeline li a {
